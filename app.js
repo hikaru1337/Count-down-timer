@@ -53,7 +53,7 @@ function setTime() {
 function setVideo() {
     const Month = nextDate.getMonth() + 1;
     const TypeMonth = Seasons[Month];
-    let path = `/video/${TypeMonth}.mp4`;
+    let path = `./video/${TypeMonth}.mp4`;
 
     video.src = path;
     video.play();
