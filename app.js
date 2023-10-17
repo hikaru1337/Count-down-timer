@@ -1,8 +1,8 @@
 const Seasons = {
-    3: "spring",
-    6: "summer",
-    9: "autumn",
-    12: "winter"
+    3: "Spring",
+    6: "Summer",
+    9: "Autumn",
+    12: "Winter"
 };
 
 const title = document.getElementById(`EventType`);
